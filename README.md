@@ -8,7 +8,7 @@ IoT Load Cell (weighing)
 `SHT2X`
  -->
 
-### Composed of `DSI5168`(base on Realtek RTL8711AM WiFi chips), HX711, Load Cell Half Bridge Strain Gauge, WS2812, SSD1327
+### Composed of `DSI5168`(base on Realtek RTL8711AM WiFi chips), [HX711](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#hx711 "link"), Load Cell Half Bridge Strain Gauge, WS2812, SSD1327
 
 #### Device is used to check the weight of package when factory divide materials into portions.Client could control quantity and weight of package which is being measured by website or mobile phone.Base on result of weighing,we can get the deviation.After that,OLED and RGB will display different description and color according to the deviation.Meanwhile,the results will be recorded on website and mobile phone.
 
@@ -16,4 +16,17 @@ IoT Load Cell (weighing)
 ![image](https://github.com/twhikari/FW-images/blob/main/Load%20cell%20desing%20schematic.png)
 
 ### I/O description
+
+#### HX711 
+<!--
+![image](https://github.com/twhikari/FW-images/blob/main/HX711.png) 
+-->
+
+ <div width = 300px ; height = 200px> <image src="https://github.com/twhikari/FW-images/blob/main/HX711.png" align = left> </div>
+ <div align = center> test </div>
+
+
+
+</t>24-Bit Analog-to-Digital Converter
+24-Bit Analog-to-Digital Converter
 
