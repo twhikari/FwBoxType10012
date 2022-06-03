@@ -48,13 +48,12 @@ Load Cell Half Bridge Strain Gauge
 #### WS2812
 
 <image src="https://github.com/twhikari/FW-images/blob/main/WS2812.png" align = left> 
-<br> 
-• Internal 1000Ohm half-bridge strain gauge <br> 
-• Range is 50kg  <br> <br>  
-User Method : <br>
-&ensp;&ensp;&ensp;&ensp;Force the outer side of the strain E-shaped beam portion of the sensor,then the outer edges will form a shear force in the opposite direction (strain beam side by another force should be empty!)
 <br><br><br>
-Load Cell Half Bridge Strain Gauge
+• Single wire communication.  <br>  
+• The power supply reverse connection does not damage the IC. <br> 
+• Each pixel of the three primary colors can achieve 256 brightness levels <br> 
+<br><br><br>
+RGB LED built-in circular development board
 <br><br><br>
  
 #### SSD1327
@@ -66,4 +65,4 @@ Load Cell Half Bridge Strain Gauge
 User Method : <br>
 &ensp;&ensp;&ensp;&ensp;Force the outer side of the strain E-shaped beam portion of the sensor,then the outer edges will form a shear force in the opposite direction (strain beam side by another force should be empty!)
 <br><br><br>
-Load Cell Half Bridge Strain Gauge
+&ensp;&ensp;Load Cell Half Bridge Strain Gauge
