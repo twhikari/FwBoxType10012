@@ -58,9 +58,9 @@ Load Cell Half Bridge Strain Gauge
  
 Three ways to build Full Bridge
 <image src="https://github.com/twhikari/FW-images/blob/main/Full_Bridge.png">
-1. External resistance and one Half Bridge (range 50kg)   
-2. Two Half Bridge (range 100kg)  
-3. Four Half Bridge (range 200kg)  
+1.External resistance and one Half Bridge (range 50kg)   
+2.Two Half Bridge (range 100kg)  
+3.Four Half Bridge (range 200kg)  
 ( Image by https://circuitjournal.com/50kg-load-cells-with-HX711 )
 <br><br><br>
 #### WS2812
