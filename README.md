@@ -41,10 +41,17 @@ IoT Load Cell (weighing)
 • Range is 50kg  <br> <br>  
 User Method : <br>
 &ensp;&ensp;&ensp;&ensp;Force the outer side of the strain E-shaped beam portion of the sensor,then the outer edges will form a shear force in the opposite direction (strain beam side by another force should be empty!)
-<br><br><br>
+<br><br><br><br>
 Load Cell Half Bridge Strain Gauge
 <br><br><br>
  
+Three ways to build Full Bridge
+<image src="https://github.com/twhikari/FW-images/blob/main/Full_Bridge.png">
+1. External resistance and one Half Bridge (range 50kg)   
+2. Two Half Bridge (range 100kg)  
+3. Four Half Bridge (range 200kg)  
+( Image by https://circuitjournal.com/50kg-load-cells-with-HX711 )
+<br><br><br>
 #### WS2812
 
 <image src="https://github.com/twhikari/FW-images/blob/main/WS2812.png" align = left> 
@@ -59,10 +66,10 @@ RGB LED built-in circular development board
 #### SSD1327
 
 <image src="https://github.com/twhikari/FW-images/blob/main/SSD1327.png" align = left> 
-<br> 
-• Internal 1000Ohm half-bridge strain gauge <br> 
-• Range is 50kg  <br> <br>  
-User Method : <br>
-&ensp;&ensp;&ensp;&ensp;Force the outer side of the strain E-shaped beam portion of the sensor,then the outer edges will form a shear force in the opposite direction (strain beam side by another force should be empty!)
+<br><br><br><br>
+• I2C Interface <br> 
+• operating temperature: -40°C to 85°C <br>
+• Embedded 128 x 128 x 4 bit SRAM display buffer <br>
+
 <br><br><br>
-&ensp;&ensp;Load Cell Half Bridge Strain Gauge
+&ensp;&ensp;&ensp;&ensp;&ensp;OLED Module SSD1327 Driver Chip
