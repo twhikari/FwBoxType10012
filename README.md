@@ -10,10 +10,21 @@ IoT Load Cell (weighing)
 
 ### Composed of `DSI5168`(base on Realtek RTL8711AM WiFi chips), [HX711](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#hx711 ), [Load Cell Half Bridge Strain Gauge](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#load-cell-half-bridge-strain-gauge "link"), [WS2812](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#WS2812 "link"), [SSD1327](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#SSD1237"link")
 
-#### Device is used to check the weight of package when factory divide materials into portions.Client could control quantity and weight of package which is being measured by website or mobile phone.Base on result of weighing,we can get the deviation.After that,OLED and RGB will display different description and color according to the deviation.Meanwhile,the results will be recorded on website and mobile phone.
+#### Device is used to check the weight of package when factory divide materials into portions.Client could control quantity and weight of the package which is being measured by website or mobile phone.Base on result of weighing,we can get the deviation.After that,OLED and RGB will display different description and color according to the deviation.Meanwhile,the results will be recorded on website and mobile phone.
 
 ### Device schematic
 ![image](https://github.com/twhikari/FW-images/blob/main/Load%20cell%20desing%20schematic.png)
+<br><br><br>
+
+### Operation Manual
+1.Turn on device .If it successfully connect to WiFi,OLED display "Connection is established".Otherwise,OLED display "Attempt to connect",and device keep connect to WiFi.  <br><br>
+2.After connection,you can set quantity and weight of the package of MQTT payload on website and mobile phone (here we use `MQTT Dash` APP),and send it to IDEASChain data platform.  <br><br>
+3.Compare the data you send to data platform to the real weight you weigh,and get the measured value.  <br><br>
+4.Return the result to IDEASChain data platform and MQTT Dash.  <br><br>
+5.If measured value is higher or lower than set value,RGB LED light red,then MQTT Dash and OLED display quantity you need to decrease or increase.  <br><br>
+6.If measured value is in appropriate range,RGB LED green red,then MQTT Dash and OLED display "Pass".  <br><br>
+7.Loop procedures 3~6 until you send escape MQTT payload.Afterwards,jump to procedure 2,redefine quantity and weight of the package.
+<br><br><br>
 
 ### I/O description
 
@@ -73,3 +84,7 @@ RGB LED built-in circular development board
 
 <br><br><br>
 &ensp;&ensp;&ensp;&ensp;&ensp;OLED Module SSD1327 Driver Chip
+<br><br><br>
+
+#### Circuit Diagram
+ ![image](https://github.com/twhikari/FW-images/blob/main/Circuit_Diagram.png)
