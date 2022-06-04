@@ -8,7 +8,7 @@ IoT Load Cell (weighing)
 `SHT2X`
  -->
 
-### Composed of `DSI5168`(base on Realtek RTL8711AM WiFi chips), [HX711](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#hx711 "link"), [Load Cell Half Bridge Strain Gauge](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#load-cell-half-bridge-strain-gauge "link"), [WS2812](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#WS2812 "link"), [SSD1327](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#SSD1237"link")
+### Composed of `DSI5168`(base on Realtek RTL8711AM WiFi chips), [HX711](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#HX711 "link"), [Load Cell Half Bridge Strain Gauge](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#load-cell-half-bridge-strain-gauge "link"), [WS2812](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#WS2812 "link"), [SSD1327](https://github.com/twhikari/FwBoxType10012/edit/main/README.md#SSD1237"link")
 
 #### Device is used to check the weight of package when factory divide materials into portions.Client could control quantity and weight of package which is being measured by website or mobile phone.Base on result of weighing,we can get the deviation.After that,OLED and RGB will display different description and color according to the deviation.Meanwhile,the results will be recorded on website and mobile phone.
 
