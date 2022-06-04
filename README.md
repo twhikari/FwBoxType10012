@@ -17,7 +17,7 @@ IoT Load Cell (weighing)
 <br><br><br>
 
 ### Operation Manual
-1.Turn on device .If it successfully connect to WiFi,OLED display "Connection is established".Otherwise,OLED display "Attempt to connect",and device keep connect to WiFi.  <br><br>
+1.Turn on device .If it successfully connect to WiFi,OLED display "Connection is established".Otherwise,OLED display "Attempt to connect",and device keep connecting to WiFi.  <br><br>
 2.After connection,you can set quantity and weight of the package of MQTT payload on website and mobile phone (here we use `MQTT Dash` APP),and send it to IDEASChain data platform.  <br><br>
 3.Compare the data you send to data platform to the real weight you weigh,and get the measured value.  <br><br>
 4.Return the result to IDEASChain data platform and MQTT Dash.  <br><br>
